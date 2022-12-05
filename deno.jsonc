@@ -13,5 +13,11 @@
       "singleQuote": true,
       "proseWrap": "preserve"
     }
+  },
+  "tasks": {
+    "run": "deno run --allow-read src/index.ts",
+    "run-watch": "deno run --watch --allow-read src/index.ts",
+    "watch": "deno task run-watch test",
+    "test": "deno test --watch ."
   }
 }

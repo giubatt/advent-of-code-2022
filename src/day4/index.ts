@@ -3,7 +3,7 @@ import {
 	fromFileUrl,
 	resolve,
 } from 'https://deno.land/std@0.167.0/path/mod.ts';
-import { intersect } from 'https://deno.land/std@0.167.0/collections/mod.ts';
+import { intersect } from 'https://deno.land/std@0.167.0/collections/intersect.ts';
 import { fullyCointains, range } from '../helpers/index.ts';
 
 const input = await Deno.readTextFile(

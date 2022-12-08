@@ -3,4 +3,5 @@
 // import './day3/index.ts';
 // import './day4/index.ts';
 // import './day5/index.ts';
-import './day6/index.ts';
+// import './day6/index.ts';
+import './day7/index.ts';

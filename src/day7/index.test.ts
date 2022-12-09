@@ -1,8 +1,4 @@
-import {
-	assert,
-	assertArrayIncludes,
-	assertEquals,
-} from 'https://deno.land/std@0.167.0/testing/asserts.ts';
+import { assertEquals } from 'https://deno.land/std@0.167.0/testing/asserts.ts';
 import { File, Folder, getFoldersWithMaxSize, parseFolders } from './index.ts';
 
 Deno.test('Day 7', async (t) => {

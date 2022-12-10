@@ -3,8 +3,6 @@ import {
 	fromFileUrl,
 	resolve,
 } from 'https://deno.land/std@0.167.0/path/mod.ts';
-import { maxOf } from 'https://deno.land/std@0.167.0/collections/max_of.ts';
-import { minOf } from 'https://deno.land/std@0.167.0/collections/min_of.ts';
 import { z } from 'https://deno.land/x/zod@v3.19.1/mod.ts';
 import { match } from 'npm:ts-pattern';
 
@@ -32,9 +30,6 @@ export class Rope {
 				number,
 			][];
 	}
-
-	// head: [number, number] = [0, 0];
-	// tail: [number, number] = [0, 0];
 
 	get head() {
 		return this.knots.at(0);

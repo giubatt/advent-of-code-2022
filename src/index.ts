@@ -6,6 +6,7 @@
 // import './day6/index.ts';
 // import './day7/index.ts';
 // import { run } from './day8/index.ts';
-import { run } from './day9/index.ts';
+// import { run } from './day9/index.ts';
+import { run } from './day10/index.ts';
 
 run();

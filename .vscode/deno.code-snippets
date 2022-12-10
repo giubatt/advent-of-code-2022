@@ -17,9 +17,9 @@
 	},
 	"Deno test step": {
 		"scope": "javascript,typescript",
-		"prefix": "deno_test_step",
+		"prefix": "deno_step",
 		"body": [
-			"await t.step('$1', async (t) => {",
+			"await t.step('$1', () => {",
 			"})"
 		],
 		"description": "Deno test descriptor"
